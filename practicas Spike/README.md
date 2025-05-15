@@ -1,4 +1,4 @@
-# HTML
+# HTML, CSS AND PYTHONS
 
 ***
 **Objetivo**
@@ -52,4 +52,11 @@ CSS es el lenguaje que se centra en la presentacion y el diseño de tu pagina we
 **Integracion de Python en Html**
 
 Hay alguna forma de integrar HTML con Python, una de las herramientas mas recientes es Pyscript, a diferencia de frameworks y bibliotecas de Python, esta no se necesita instalarlo porque esta fue incorporada directamente en el codigo HTML.
+Tambien hay varios formar de intrgrar python en html:
+*Frameworks web*
+- Frameworks como flask y django, estas son las formas mas comunes para integrar python en un html, esta forma es mas conveniente para crear paginas mas complejas y ser mas interactivo.
+
+*Pyscript*
+- Esta herramienta permite ejecutar un codigo de Python directamente a una pagina web sin necesidad de intalar, este fue desarrollado para incorporarse difrectamente.
+
 ***Los ejemplos se encuentrar en la carpeta de practicas spike***
