@@ -1,12 +1,14 @@
-body {
-
-    background-color: rgb(243, 244, 245);
-
-  }
-body h1{
-    color:rgb(235, 28, 21)
+body h1 {
+    color:brown;
+}
+body h2 {
+    color: rgb(255, 0, 0);
 }
 
-body h2{
-    color:blue
+body p {
+    color: black;
+}
+
+.imagen1 {
+    width: 20%;
 }
