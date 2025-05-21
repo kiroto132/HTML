@@ -1,0 +1,17 @@
+.img1 {
+    width: 250px;
+    height: 500px;
+    border: 5px rgb(110, 6, 179) outset;
+}
+body h1{
+    color: rgb(160, 4, 250);
+}
+.about {
+    color: rgb(235, 3, 3);
+}
+.details {
+    color: rgb(0, 102, 255);
+}
+html {
+    background-color: rgb(168, 252, 252);
+}
