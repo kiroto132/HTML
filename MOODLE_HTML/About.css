@@ -13,5 +13,9 @@ body h1{
     color: rgb(0, 102, 255);
 }
 html {
-    background-color: rgb(168, 252, 252);
+    background-color: rgb(184, 217, 255);
+}
+hr {
+    border: 2px black solid;
+    border-radius: 20px;
 }
