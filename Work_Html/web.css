@@ -1,0 +1,363 @@
+
+html {
+    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    background-color: #ffffff;
+    border-left: 4px solid #5a5a64;
+    border-right: 4px solid #5a5a64;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    box-shadow: 0 0 50px 0  #665823 ;
+    box-sizing: border-box;
+}
+
+.subt {
+    background: url(../MOODLE_HTML/assets/camino\ Ninja.jpg) top / cover fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0.5);
+}
+
+.subtitle{
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 123, 0);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nave {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+
+.title-becas{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.all-card{
+    margin: auto;
+    padding: 10px 30px;
+    align-items: center;
+    gap: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.we {
+    color: red;
+    text-align: center;
+}
+
+a{
+    color: #1b1b1b;
+    text-decoration: none;
+}
+
+img{
+    display: flex;
+    margin: 0px;
+    width: 25px;
+}
+
+.card-riwi{
+    background: linear-gradient(to right, transparent, #6F0DFC);
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    width: 300px;
+    border-left: 3px solid rgb(57, 2, 109);
+    border-radius:1pc;
+    
+    transition-duration: 200ms, 80ms;
+}
+.card-riwi:hover{
+    background-color: #6F0DFC;
+    transform: scale(1.2);
+    transform:translate3d(10px) ;
+}
+
+
+.title-riwi{
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, transparent,
+    #4e4effb4, transparent);   
+}
+
+.card-udea{
+    background: linear-gradient(to right, transparent,#558A17 );
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    width: 300px;
+    border-left: 3px solid rgb(23, 109, 2);
+    border-radius:1pc;
+    
+    transition-duration: 200ms, 80ms;
+}
+
+.card-udea:hover{
+    background-color: rgb(23, 109, 2);
+    transform: scale(1.2);
+    transform:translate3d(10px);
+}
+
+
+.title-UDEA{
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, transparent,#288f00 );   
+}
+
+.card-eafit{
+    background: linear-gradient(to right, transparent,#0020F7 );
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    width: 300px;
+    border-left: 3px solid rgb(4, 2, 109);
+    border-radius:1pc;
+    transition-duration: 200ms, 80ms;
+}
+
+.card-eafit:hover{
+    background-color: rgb(4, 0, 255);
+    transform: scale(1.2);
+    transform:translate3d(10px)
+}
+
+.title-EAFIT{
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, transparent,#0026a5 );
+}
+
+.card-Nacional{
+    background: linear-gradient(to right,transparent,#F21D2F);
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    width: 300px;
+    border-left: 3px solid rgba(255, 59, 59, 0.63);
+    border-radius:1pc;
+    transition-duration: 200ms, 80ms;
+}
+
+.card-Nacional:hover{
+    background-color: #f30424;
+    transform: scale(1.2);
+    transform:translate3d(10px)
+}
+
+.title-NACIONAL{
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, transparent,#fa3e3e, transparent);
+}
+
+.all-card2{
+    margin: auto;
+    padding: 10px 30px;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card-ITM{  
+    background: linear-gradient(to right, transparent,#023167 );
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    width: 300px;
+    border-left: 3px solid rgb(4, 2, 109);
+    border-radius:1pc;
+    transition-duration: 200ms, 80ms;
+}
+
+.card-ITM:hover{
+    background-color: rgb(0, 22, 146);
+    transform: scale(1.2);
+    transform:translate3d(10px)
+}
+
+.title-Tecnologico{
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, transparent,#0011ff, transparent);
+}
+
+.card-IUE{
+    background: linear-gradient(to right, transparent,#FFA62B );
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    width: 300px;
+    border-left: 3px solid rgb(255, 174, 0);
+    border-radius:1pc;
+    transition-duration: 200ms, 80ms;
+}
+
+.card-IUE:hover{
+    background-color: rgb(250, 136, 5);
+    transform: scale(1.2);
+    transform:translate3d(10px)
+}
+
+.title-IUE{
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, transparent,#ff6600, transparent);
+}
+
+.card-TDEA{
+    background: linear-gradient(to right, transparent,#32520E);
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    width: 300px;
+    border-left: 3px solid rgb(32, 109, 2);
+    border-radius:1pc;
+    transition-duration: 200ms, 80ms;
+}
+
+.card-TDEA:hover{
+    background-color: rgb(23, 109, 2);
+    transform: scale(1.2);
+    transform:translate3d(10px)
+}
+
+.title-TDEA{
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, transparent,#014701, transparent);
+}
+
+.card-CES{
+    background: linear-gradient(to right, transparent,#0F1A2C );
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    width: 300px;
+    border-left: 3px solid rgb(4, 2, 109);
+    border-radius:1pc;
+    transition-duration: 200ms, 80ms;
+}
+
+.card-CES:hover{
+    background-color: rgb(1, 9, 80);
+    transform: scale(1.2);
+    transform:translate3d(10px)
+}
+
+.title-CES{
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(to right, transparent,#010b96 transparent);
+}
+
+.registracion {
+    background: rgba(61, 61, 61, 0.671);
+    width: min(60%, 100%);
+    margin: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.Formulario-de-busqueda{
+    background: rgba(61, 61, 61, 0.671);
+    width: min(60%, 100%);
+    margin: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.regis {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Registro-Campo {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 3px;
+}
+
+.Campos{
+    text-align: center;
+    align-items: center;
+}
+
+.registro{
+    text-align: center;
+    align-items: center;
+}
+
+.Contacto{
+    margin-right: 20px;
+}
+
+.Nombres{
+    color: black;
+    padding: 7px;
+}
+
+input {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    border-left: 2px solid #2e2a2a;
+    border-radius: 5px;
+}
+
+
+.enviar {
+    width: 30%;
+}
+
+

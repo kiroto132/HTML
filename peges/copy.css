@@ -1,0 +1,96 @@
+body{
+    padding: 70px 100px 70px 100px;
+}
+
+
+
+.navegador_link{
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+    gap: 40px;
+}
+
+
+
+
+.header{
+    padding:0 100px 0 100px;
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.navegador{
+    display: flex;
+    align-items: center;
+    height: 68px;
+    gap: 2rem;
+    
+}
+
+.section-principal{
+    font-family: "Saira", sans-serif;
+    width: 531px;
+    height: 231px;
+    
+}
+
+.title-P{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.parrafo-P{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.boton-consultation{
+    background: black;
+    border-radius: 1pc;
+    padding: 10px 35px 10px 35px;
+    /*animation: mover 2s infinite;*/
+}
+
+
+
+.Book{
+    line-height: 28px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.resquest{
+    line-height: 28px;
+}
+
+.botn-navegador{
+    background: #ffffff;
+    border: 1px solid darkgray;
+    border-radius: 1pc;
+    padding: 10px 35px 10px 35px;
+}
+
+@media (max-width: 1200px) {
+    .navegador{
+        display: none;
+    }
+    
+}
+/*@keyframes mover{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+
+    }
+    100% {
+        transform: scale(1);
+    }
+}*/
+
+
