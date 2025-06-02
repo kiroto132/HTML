@@ -7,6 +7,10 @@ html {
     box-sizing: border-box;
 }
 
+.title-Principal{
+    display: grid;
+    justify-content: center;
+}
 
 .contenedor{
     background-color: #ffffff;
@@ -85,15 +89,15 @@ img{
 }
 
 .card-riwi{
-    background: linear-gradient(to right, transparent, #6F0DFC);
+    background: #ffffff;
     text-align: center;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
     width: 300px;
-    border-left: 3px solid rgb(57, 2, 109);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius:1pc;
-    
     transition-duration: 200ms, 80ms;
 }
 .card-riwi:hover{
@@ -112,15 +116,15 @@ img{
 }
 
 .card-udea{
-    background: linear-gradient(to right, transparent,#558A17 );
+    background: #ffffff;
     text-align: center;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
     width: 300px;
-    border-left: 3px solid rgb(23, 109, 2);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius:1pc;
-    
     transition-duration: 200ms, 80ms;
 }
 
@@ -139,13 +143,14 @@ img{
 }
 
 .card-eafit{
-    background: linear-gradient(to right, transparent,#0020F7 );
+    background: #ffffff;
     text-align: center;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
     width: 300px;
-    border-left: 3px solid rgb(4, 2, 109);
+    border:2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);    
     border-radius:1pc;
     transition-duration: 200ms, 80ms;
 }
@@ -164,13 +169,14 @@ img{
 }
 
 .card-Nacional{
-    background: linear-gradient(to right,transparent,#F21D2F);
+    background: #ffffff;
     text-align: center;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
     width: 300px;
-    border-left: 3px solid rgba(255, 59, 59, 0.63);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius:1pc;
     transition-duration: 200ms, 80ms;
 }
@@ -199,13 +205,14 @@ img{
 
 
 .card-ITM{  
-    background: linear-gradient(to right, transparent,#023167 );
+    background: #ffffff;
     text-align: center;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
     width: 300px;
-    border-left: 3px solid rgb(4, 2, 109);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius:1pc;
     transition-duration: 200ms, 80ms;
 }
@@ -224,13 +231,14 @@ img{
 }
 
 .card-IUE{
-    background: linear-gradient(to right, transparent,#FFA62B );
+    background: #ffffff;
     text-align: center;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
     width: 300px;
-    border-left: 3px solid rgb(255, 174, 0);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius:1pc;
     transition-duration: 200ms, 80ms;
 }
@@ -249,13 +257,14 @@ img{
 }
 
 .card-TDEA{
-    background: linear-gradient(to right, transparent,#32520E);
+    background: #ffffff;
     text-align: center;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
     width: 300px;
-    border-left: 3px solid rgb(32, 109, 2);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius:1pc;
     transition-duration: 200ms, 80ms;
 }
@@ -274,15 +283,16 @@ img{
 }
 
 .card-CES{
-    background: linear-gradient(to right, transparent,#0F1A2C );
+    background: #ffffff;
     text-align: center;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
     width: 300px;
-    border-left: 3px solid rgb(4, 2, 109);
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius:1pc;
-    transition-duration: 200ms, 80ms;
+    transition-duration: 200ms, 80ms; 
 }
 
 .card-CES:hover{
@@ -295,69 +305,97 @@ img{
     color: blanchedalmond;
     text-align: center;
     border-radius: 5px;
-    background: linear-gradient(to right, transparent,#010b96 transparent);
+    background: linear-gradient(to right, transparent,#010b96, transparent);
 }
 
-.registracion {
-    background: rgba(61, 61, 61, 0.671);
-    width: min(60%, 100%);
-    margin: auto;
-    padding: 2rem;
-    border-radius: 1rem;
-    align-items: center;
-}
-
-.Formulario-de-busqueda{
-    background: rgba(61, 61, 61, 0.671);
-    width: min(60%, 100%);
-    margin: auto;
-    padding: 2rem;
-    border-radius: 1rem;
-}
-
-.regis {
-    text-align: center;
-    padding-top: 10px;
-}
-
-.Registro-Campo {
-    text-align: center;
-    align-items: center;
-    margin: 20px;
-    padding: 3px;
-}
-
-.Campos{
-    text-align: center;
-    align-items: center;
-}
-
-.registro{
-    text-align: center;
-    align-items: center;
+.regis{
+    display: grid;
+    justify-content: center;
+    padding: -25px 0;
+    padding-top: 20px;
 }
 
 .Contacto{
-    margin-right: 20px;
+    display: grid;
+    justify-content: center;
+    padding-top: auto;
+}
+
+.box-formulario{
+    display: grid;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 .Nombres{
-    color: black;
-    padding: 7px;
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 900;
 }
 
-input {
-    display: flex;
-    text-align: center;
-    width: 50%;
-    padding: 10px;
-    border-left: 2px solid #2e2a2a;
-    border-radius: 5px;
+.Registro-Campo{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    /* width:10pc; */
 }
 
-
-.enviar {
-    width: 30%;
+input{
+    width: 20pc;
+    height: 1.9pc;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
+.Campos{
+    background: whitesmoke;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius:1pc;
+}
 
+.bottom{
+    width: 10pc;
+    color: beige;
+    background: black;
+    transition-duration: 200ms, 80ms;
+}
+
+.bottom:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transform:translate3d(10px)
+}
+
+.enviar{
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+/* .box-formulario::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0 15px 50px #000);
+    border-radius: 20px;
+    animation: rotating 4s linear infinite;
+    animation-name: -1s;
+}
+
+.box-formulario::after{
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background: #2d2d39;
+    border-radius: 15px;
+    border: 8px solid #25252b;
+} */
