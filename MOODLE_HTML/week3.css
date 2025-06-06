@@ -1,0 +1,403 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(44deg,#548DBF,#021526,#846CD9,#04ADBF);
+    background-size: 300% 300%;
+    animation: fondo 12s ease-out infinite;
+}
+
+
+
+header{
+    background-color: #333;
+    display: block;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 1pc;
+
+}
+
+h1{
+    text-align: center;
+    color: #9BF2EA;
+    width: 40ch;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: h1 4.5s steps(50) infinite
+    alternate-reverse;
+    font-size:clamp(1rem, 4vw, 2rem);
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    padding: 20px;
+}
+
+.contex-services{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #275950;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1pc;
+    box-shadow: 5px 5px 15px#333;
+    text-align: center;
+    margin: 10px;
+    transition: 600ms ;
+    background: linear-gradient(44deg,#f2a39191,#6156A6,#1f3b7363,#154a8f65);
+    /* background-size: 400% 400%;
+    animation: fondo 12s ease-out infinite; */
+}
+
+.contex-services h2{
+    margin: 20px;
+    font-size: 30px;
+}
+
+.contex-services:hover{
+    transform: translateY(-20px);
+}
+
+.grid-container{
+    gap: 2rem;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    animation: loop 10s linear infinite;
+}
+
+.grid-item{
+    width: 187.5px;
+    height: 300px;
+    background:url(./assets/camino\ Ninja.jpg) top/ cover;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    text-align: center;
+    color: aliceblue;
+    place-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: 600ms ;
+}
+
+.grid-item::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg,
+        hsla(0, 0%, 0%, 0) 20%,
+        #0216,#002499, #f2f2f2f2 50%,
+        hsla(0, 0%, 0%, 0),
+        hsla(0, 0%, 0%, 0) 100%);
+    transition: 700ms ease;
+    background-size: 250% 250%, 100% 100%;
+    background-repeat: no-repeat;
+    background-position: -100% -100%, 0% 0%;
+    
+}
+
+.grid-item:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.grid-item:hover::before {
+    background-position: 100% 100%, 0% 0%;
+}
+
+.grid-item:hover::before {
+    transition: 700ms ease;
+    background-position: 100% 100%, 0% 0%;
+}
+
+.grid-item p{
+    font-size: 15px;
+}
+
+.grid-2{
+    background: url(./assets/new_york.webp) left/ cover;
+}
+
+.grid-3{
+    background: url(./assets/berlin.jpg) top/ cover;
+}
+
+.grid-4{
+    background: url(./assets/Noruega.png) top/ cover;
+}
+
+.grid-5{
+    background: url(./assets/Rio-de-Janeiro.png) top/ cover;
+    /* background-size: 344px 342px; */
+}
+
+.grid-6{
+    background: url(./assets/auroras-boreales-canada.jpg) top/ cover;
+    /* background-size: auto 342px; */
+}
+
+.separador{
+    background: transparent;
+    padding-top: 40px;
+    margin: 30px;
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 5px 5px 15px #021526;
+}
+.grid3 p{
+    color: #FFFFFF;
+}
+
+.grid-container2{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 15px;
+    margin-top: 50px;
+}
+
+.grid-container2 .grid-item{
+    background: url(./assets/MT-09.png) top/cover;
+    width: auto;
+}
+
+.grid-container2 .grid2{
+    background: url(./assets/Z1000.png)top/ cover;
+}
+
+.grid-container2 .grid3{
+    background: url(./assets/s1000rrv3.png) top/cover;
+}
+
+.grid-container2 .grid4{
+    background: url(./assets/R1.png) top/cover;
+}
+
+.grid-container2 .grid5{
+    background: url(./assets/H2R-H2.png) top/cover;
+}
+
+.grid-container2 .grid6{
+    background: url(./assets/Ducati-V4.png) top /cover;
+}
+
+.grid-item .face{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item .face.face1{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+.grid-item .face.face1 .content{
+    font-size:2em;
+    margin:0;
+    padding:0 0 1em 0;
+    font-weight:500;
+}
+
+.grid-item .face.face1 p{
+    font-size: 19px;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+.grid-item .face.face2{
+    background: linear-gradient(44deg,#04acbf,#502fc9,#02325c,#548dbf);
+    transition: 0.5s;
+}
+
+.grid-item:nth-child(1) .face.face2{
+    background: linear-gradient(44deg,#548DBF,#021526,#846CD9,#04ADBF);
+    border-radius: 10px;
+}
+
+.grid-item:nth-child(2) .face.face2{
+    background: linear-gradient(44deg,#548DBF,#021526,#846CD9,#04ADBF);
+    border-radius: 10px;
+}
+
+.grid-item:nth-child(3) .face.face2{
+    background: linear-gradient(44deg,#548DBF,#021526,#846CD9,#04ADBF);
+    border-radius: 10px;
+}
+
+.grid-item:hover .face.face2{
+    height: 60px;
+    border-radius: 0 0 15px 15px;
+}
+
+.grid-item .face.face2:before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255, 0.1);
+    border-radius: 15px 0 0 15px;
+}
+
+.grid-item .face.face2 h2{
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0,0,0, .2);
+}
+
+@keyframes content{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+footer{
+    text-align: center;
+}
+
+@keyframes loop{
+    0%{
+        transform: translateX(10ch);
+    }
+    80%{
+        transform: translateX(-50ch);
+    }
+    100%{
+        transform: translateX(10ch);
+    }
+}
+
+@keyframes h1{
+    from{
+        width: 0ch;
+    }
+}
+
+@keyframes fondo{
+    0%{
+        background-position: -10% -50%;
+    }
+    25%{
+        background-position: -50% -50%;
+    }
+    35%{
+        background-position: -50% -50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: -10% -50%;
+    }
+}
+
+/* Teléfonos pequeños (0–480px) */
+@media (max-width: 480px) {
+body {
+    background: linear-gradient(44deg,#f2a39191,#6156A6,#1f3b7363,#154a8f65);
+    background-size: 400% 400%;
+    animation: fondo 12s ease-out infinite;
+}
+}
+
+/* Teléfonos grandes y tablets pequeñas (481–768px) */
+@media (min-width: 481px) and (max-width: 810px){
+body {
+    background: linear-gradient(44deg,#f2a39191,#6156A6,#1f3b7363,#154a8f65);
+    background-size: 400% 400%;
+    animation: fondo 12s ease-out infinite;
+    }
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column(2);
+    }
+
+nav ul{
+    flex-direction: column;
+}
+.grid-container2{
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+
+/* Tablets y laptops pequeñas (769–1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+body {
+    background: linear-gradient(44deg,#f2a39191,#6156A6,#1f3b7363,#154a8f65);
+    background-size: 400% 400%;
+    animation: fondo 12s ease-out infinite;
+}
+}
+
+/* Laptops y escritorios grandes (1025px en adelante) */
+@media (min-width: 1025px){
+body {
+    background: linear-gradient(44deg,#f2a39191,#6156A6,#1f3b7363,#154a8f65);
+    background-size: 400% 400%;
+    animation: fondo 12s ease-out infinite;
+}
+}
+
+@media (max-width: 480px){
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 530px){
+    .grid-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column(2);
+        align-items: flex-start;
+        animation: none;
+    }
+}
