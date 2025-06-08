@@ -1,0 +1,113 @@
+   * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background: #333;
+      color: white;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      padding: 10px;
+    }
+
+    .menu-toggle {
+      display: none;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 30px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .hamburger {
+        display: block;
+      }
+
+      nav ul {
+        flex-direction: column;
+        display: none;
+        background: #444;
+      }
+
+      .menu-toggle:checked + .hamburger + ul {
+        display: flex;
+      }
+    }
+
+ 
+
+/* Container for all the elements */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: #EEE;
+  color: #333;
+  transition: all 0.4s ease-out;
+}
+
+/* Toggle Button */
+#toggle {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 60px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #333;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Making a dot switch inside the Toggle Button */
+#toggle::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #EEE;
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  transform: translateY(-50%);
+  transition: all 0.5s ease-in;
+}
+
+/* Changing toggle button background when checked */
+#toggle:checked {
+  background: #03FFC0;
+}
+
+/* Changing dot switch color and moving to the right side when checked */
+#toggle:checked::before {
+  background: #333;
+  left: 32px;
+}
+
+/* Changing the background & font color when checked */
+#toggle:checked ~ .container {
+  background-color: #333;
+  color: #EEE;
+}
