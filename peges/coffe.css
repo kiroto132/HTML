@@ -1,0 +1,88 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+
+header{
+    margin: 0;
+    padding: 0;
+    background: url(./assets/img/banner.webp) center/ cover, no-repeat, fixed;
+    width: 100%;
+    height: 478px;
+}
+
+.container-nav{
+    margin:  0 auto;
+    max-width: 120rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-nav h1{
+    color: white;
+    padding: 0 100px;
+    margin: 30px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    gap: 40px;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.context-principal{
+    display: flex;
+    margin: 0 100px;
+}
+
+.container-titleimg{
+    padding-top: 70px;
+    text-align: center;
+    color:white;
+}
+
+.container-titleimg h2{
+    font-size: 35px;
+    margin-bottom: -2px;
+}
+
+
+.Blog-main{
+    /* display: block; */
+    
+}
+
+img{
+    width: 500px;
+    /* height: 400px; */
+    
+}
+
+.entrada{
+    width: 800px;
+    height: auto;
+}
+.entrada-img{
+    width: 800px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
