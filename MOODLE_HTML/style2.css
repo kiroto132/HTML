@@ -1,0 +1,140 @@
+.aboutMe{
+    text-align: center;
+    font-size: 30px;
+}
+
+.about{
+    background: rgba(0, 0, 0, 0.61);
+    border-radius: 1pc;
+    color: aliceblue;
+}
+
+.about p{
+    background: bisque;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+.about:hover{
+    background-color: darkolivegreen;
+    cursor: pointer;
+    transform: scale(1.2);
+    transform:translate3d(10px)
+}
+
+.img1 {
+    width: 250px;
+    height: 500px;
+    border: 5px rgb(110, 6, 179) outset;
+    margin-top: 50px;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size:clamp(1rem, 4vw, 2rem);
+}
+
+.details {
+    background: rgba(221, 215, 215, 0.61);
+    border-radius: 1pc;
+    color: #0D1326;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.details:hover{
+    background-color: #e74d4db2;
+    cursor: pointer;
+    transform: scale(0.7);
+    transform:translate3d(10px)
+}
+
+.skills{
+    text-align: center;
+    background: #d9a97eb2;
+    justify-content: center;
+    font-size: 30px;
+    border-radius:  1pc;
+}
+
+.skills h3{
+    padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0 0 20px 0;
+}
+
+.regis{
+    display: grid;
+    justify-content: center;
+    padding: -25px 0;
+    padding-top: 20px;
+}
+
+.Contacto{
+    display: grid;
+    justify-content: center;
+    padding-top: auto;
+}
+
+.box-formulario{
+    display: grid;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.Nombres{
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.Registro-Campo{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    /* width:10pc; */
+}
+
+input{
+    width: 20pc;
+    height: 1.9pc;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.Campos{
+    background: whitesmoke;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius:1pc;
+}
+
+.bottom{
+    width: 10pc;
+    color: beige;
+    background: black;
+    transition-duration: 200ms, 80ms;
+}
+
+.bottom:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transform:translate3d(10px)
+}
+
+.enviar{
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
