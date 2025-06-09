@@ -12,5 +12,10 @@
 
 - Al pulsar el botn Home volveras a la pagina index de la web, espero te guste mi pagina web sobre mi "Contactame si necesitas algo".
 
+### CORREO: samuelandrey1207@gmail.com
+### NOMBRE: Samuel Andrey Zapata Casas
+### CLAN: Linus
+### DOCUPENTO DE INTENDITAD: 1036519037
+
 
 
