@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: rgba(201, 200, 200, 0.856);
+    font-size: 15px;
+    margin: 0;
+}
+
+header{
+    justify-content: left;
+    background: yellow ;
+}
+
+nav{
+    display: flex;
+}
+
+.all-nav{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    /* margin: 10px 100px 0 100px; */
+}
+
+form{
+    display:flex;
+}
+
+label{
+    display: flex;
+    padding: 30px 0;
+    
+}
+
+.envio-gratis img{
+    padding-left: 30px;
+    width: 400px;
+}
+
+.logo-mercado-libre img{
+    width: 120px;
+    height: 34px;
+    
+}
+
+.logo-mercado-libre{
+    padding: 10px 0 0 30px;
+}
+
+.nav-area-botones{
+    display: flex;
+    font-size: 14px;
+}
+
+.ubicacion, .menu-list{
+    padding-right: 100px;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #3483fa;
+    font-weight: 500;
+    /* background: rgb(146, 146, 230); */
+}
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+ul li{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+}
+
+main img{
+    width: 1310px;
+}
+
+.conteiner-service{
+    padding-bottom: 30px;
+    margin: 0 50PX;
+}
+
+.conteiner-service img{
+    width: 90px;
+}
+
+.cards-service{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 35px 30px;
+    position: relative;
+    top: -3rem;
+    margin: auto 40px;
+    background: transparent;
+}
+
+.cuenta, 
+.ubi, 
+.medio-de-pago, 
+.baratos, 
+.mas-vendidos,
+.compra-protegida{
+    display: grid;
+    text-align: center;
+    place-items: center;
+    background: white;
+    padding: 20px 0;
+    margin: auto 20px;
+    line-height: 20px;
+    height: 90%;
+    border-radius: 10px;
+    margin-left: 0;
+    width: 100%;
+    row-gap: 10px;
+}
+
+.cards-service p{
+    padding: 20px 10px;
+}
+
+.cards-service span{
+    font-size: 12px;
+}
+
+button{
+    background: #a7bee094 ;
+    border-radius: 5px;
+    border-style: none;
+}
+
+span{
+    padding: 5px;
+}
+
+.time-ofertas{
+    display: flex;
+
+    /* grid-template-columns: repeat(2, 1fr); */
+    margin: 0 50px 10px 50px;
+}
+.time-ofertas img{
+    width: auto;
+
+}
+
+.oferta-del-dia,
+.ofertas{
+    display: grid;
+    text-align: center;
+    place-items: center;
+    background: white;
+    padding: 20px 0;
+    margin: auto 20px;
+    /* line-height: 20px; */
+    height: 110%;
+    border-radius: 10px;
+    /* margin: 50px 20px 50px 0; */
+    width: 65%;
+    /* row-gap: 10px; */
+}
+
+
+
+
+

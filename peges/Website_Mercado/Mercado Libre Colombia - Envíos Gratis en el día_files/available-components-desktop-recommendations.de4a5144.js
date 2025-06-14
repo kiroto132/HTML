@@ -1,0 +1,2 @@
+"use strict";(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[893],{17749:(_,s,t)=>{t.r(s),t.d(s,{default:()=>e.A});var e=t(34982)},82512:(_,s,t)=>{t.d(s,{LI:()=>A,ag:()=>e});const e=(_,s)=>"desktop"===s?_?4:6:"tablet"===s&&_?3:5,A=_=>parseInt(_,10)>=1180?6:5}}]);
+//# sourceMappingURL=available-components-desktop-recommendations.de4a5144.js.map
